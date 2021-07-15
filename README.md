@@ -27,3 +27,7 @@ With KP_INSTANCE_ID in place and you logged in to IBM Cloud, an invocation of th
 ```sh
 KP_KEYRING_ID=henrik-keyring1 KP_KEY_NAME=MyTestKey KEY_FILE=/home/henrik/secrets/PlainTextKey.bin ./create_key.sh
 ```
+
+# Python sample
+
+See the [README.md](kms-encrypt-nonce/README.md) for information on the included Python script to encrypt the nonce for importing your own keys.
