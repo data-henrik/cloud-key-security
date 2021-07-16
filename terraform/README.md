@@ -1,0 +1,3 @@
+# BYOK using Terraform
+
+The [Terraform provider for IBM Cloud](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs) supports the deployment of Key Protect and Hyper Protect Crypto Services instances. It includes features [to work with crypto keys, key rings and more](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/kms_key). The files in this directory provide a sample for how to provision an instance of Key Protect. Thereafter, a new key ring is created and then a new root key by importing (bring your own key) existing key material.

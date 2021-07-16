@@ -31,3 +31,10 @@ KP_KEYRING_ID=henrik-keyring1 KP_KEY_NAME=MyTestKey KEY_FILE=/home/henrik/secret
 # Python sample
 
 See the [README.md](kms-encrypt-nonce/README.md) for information on the included Python script to encrypt the nonce for importing your own keys.
+
+# Terraform
+
+See the [README.md](terraform/README.md) for information on the included Terraform sample.
+
+# License
+See the [LICENSE](LICENSE) file.
