@@ -37,7 +37,7 @@ else
     export KEYRING_CLAUSE="--key-ring ${KP_KEYRING_ID}"
 fi
 
-export KEY_MATERIAL=$(openssl enc -base64 -A -in ${KEY_FILE})
+export KEY_MATERIAL=$(base64 ${KEY_FILE} -w 0)
 
 
 ibmcloud kp import-token create -i ${KP_INSTANCE_ID} -e 600 $KP_KEYRING_CLAUSE
